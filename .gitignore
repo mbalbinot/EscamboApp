@@ -32,3 +32,6 @@
 
 # Ignore Idea files
 .idea/
+
+# Templates
+/public/templates/
