@@ -21,8 +21,22 @@
     <body>
         <div id="wrapper">
             <%= render partial: "layouts/backoffice_shared/navigation" %>
-            <%= yield %>
+
+            <!-- Page Content -->
+            <div id="page-wrapper">
+                <div class="container-fluid">
+                    <%= yield %>
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <!-- /#page-wrapper -->
         </div>
         <!-- /#wrapper -->
+
+        <% if notice %>
+            <script>
+                $.notify("<%= notice %>", "success");
+            </script>
+        <% end %>
     </body>
 </html>

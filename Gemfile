@@ -68,3 +68,5 @@ gem 'rails-assets-bootstrap', source: 'https://rails-assets.org'
 gem 'bootstrap_sb_admin_base_v2'
 # Flexible authentication solution for Rails with Warden.
 gem 'devise'
+# A simple, versatile notification library
+gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
