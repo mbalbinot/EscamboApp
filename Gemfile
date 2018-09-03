@@ -54,6 +54,8 @@ group :development do
   #gem 'binding_of_caller'
   # Generate Entity-Relationship Diagrams for Rails applications
   gem 'rails-erd'
+  #A library for generating fake data such as names, addresses, and phone numbers.
+  gem 'faker'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -61,12 +63,18 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Repository for collecting Locale data for Ruby on Rails I18n as well as other interesting, Rails related I18n stuff
 gem 'rails-i18n', '~> 5.1' # For 5.0.x, 5.1.x and 5.2.x
-# The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
-gem 'rails-assets-bootstrap', source: 'https://rails-assets.org'
-#gem 'bootstrap', '~> 4.1', '>= 4.1.3'
+
+source 'https://rails-assets.org' do
+  # The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
+  gem 'rails-assets-bootstrap'
+  #gem 'bootstrap', '~> 4.1', '>= 4.1.3'
+  # A simple, versatile notification library
+  gem 'rails-assets-notifyjs'
+  # Wrappers for JavaScript alert(), confirm() and other flexible dialogs using Twitter's bootstrap framework
+  gem 'rails-assets-bootbox'
+end
+
 # Rails gem of the Bootstrap based admin theme SB Admin 2.
 gem 'bootstrap_sb_admin_base_v2'
 # Flexible authentication solution for Rails with Warden.
 gem 'devise'
-# A simple, versatile notification library
-gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
