@@ -6,7 +6,7 @@
 </div>
 <!-- /.row -->
 <div class="row">
-    <div class="col-lg-6">
+    <div class="col-lg-8">
         <div class="panel panel-default">
             <div class="panel-heading">
                 Listando Administradores
@@ -23,14 +23,18 @@
                         <thead>
                         <tr>
                             <th>#</th>
-                            <th colspan="2">E-Mail</th>
+                            <th>Nome</th>
+                            <th>E-Mail</th>
+                            <th colspan="2">Tipo de Acesso</th>
                         </tr>
                         </thead>
                         <tbody>
                         <% @admins.each do |admin| %>
                             <tr>
                                 <td><%= admin.id %></td>
+                                <td><%= admin.name %></td>
                                 <td><%= admin.email %></td>
+                                <td><%= admin.role_br %></td>
                                 <td>
                                     <%= link_to edit_backoffice_admin_path(admin),  class: "btn btn-primary btn-circle" do %>
                                         <i class="fa fa-edit"></i>

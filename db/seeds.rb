@@ -27,5 +27,9 @@ puts "CATEGORIAS cadastradas com sucesso!"
 
 
 puts "Cadastrando ADMINISTRADOR padrão..."
-Admin.create!(email: "admin@admin.com", password: "gringo", password_confirmation: "gringo")
+Admin.create!(name: "Administrador padrão",
+              email: "admin@admin.com",
+              role: 0,
+              password: "gringo",
+              password_confirmation: "gringo")
 puts "ADMINISTRADOR padrão cadastrado com sucesso!"
