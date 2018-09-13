@@ -54,7 +54,7 @@ group :development do
   #gem 'binding_of_caller'
   # Generate Entity-Relationship Diagrams for Rails applications
   gem 'rails-erd'
-  #A library for generating fake data such as names, addresses, and phone numbers.
+  # A library for generating fake data such as names, addresses, and phone numbers.
   gem 'faker'
 end
 
