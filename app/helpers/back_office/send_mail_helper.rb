@@ -1,2 +1,0 @@
-module BackOffice::SendMailHelper
-end
