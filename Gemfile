@@ -56,6 +56,8 @@ group :development do
   gem 'rails-erd'
   # A library for generating fake data such as names, addresses, and phone numbers.
   gem 'faker'
+  # O Lero-lero Generator é uma ferramenta capaz de gerar frases que 'falam' muita coisa mas que não tem conteúdo algum.
+  gem 'lerolero_generator'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -82,3 +84,5 @@ gem 'devise'
 gem 'enum_help'
 # Minimal authorization through OO design and pure Ruby classes
 gem 'pundit'
+# Integration of RubyMoney - Money with Rails
+gem 'money-rails', '~> 1.11'
