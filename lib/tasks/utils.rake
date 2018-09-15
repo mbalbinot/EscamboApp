@@ -17,12 +17,16 @@ namespace :utils do
   desc "Cria anúncios fake"
   task generate_ads: :environment do
     puts "Cadastrando ADS..."
-    100.times do
-      Ad.create!(title: Faker::Lorem.sentence([2,3,4,5].sample),
+    100.times do |i|
+      puts "Cadastrando Ad #{i}..."
+      ad = Ad.create(title: Faker::Lorem.sentence([2,3,4,5].sample),
                  description: LeroleroGenerator.paragraph(Random.rand(3)),
                  member: Member.all.sample,
                  category: Category.all.sample,
                  price: "#{Random.rand(500)},#{Random.rand(99)}")
+      pic = "#{Random.rand(9)}.webp"
+      puts "Incluindo imagem #{pic} ao Ad #{i}..."
+      ad.picture.attach(io: File.open(Rails.root.join('public', 'images', pic)), filename: pic, content_type: "image/webp")
     end
     puts "ADS cadastrados com sucesso!"
   end

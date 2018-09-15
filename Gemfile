@@ -86,3 +86,5 @@ gem 'enum_help'
 gem 'pundit'
 # Integration of RubyMoney - Money with Rails
 gem 'money-rails', '~> 1.11'
+# Mini replacement for RMagick
+gem 'mini_magick'
