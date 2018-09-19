@@ -74,6 +74,8 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-notifyjs'
   # Wrappers for JavaScript alert(), confirm() and other flexible dialogs using Twitter's bootstrap framework
   gem 'rails-assets-bootbox'
+  # The iconic SVG, font, and CSS toolkit
+  gem 'rails-assets-font-awesome', '~> 4.7'
 end
 
 # Rails gem of the Bootstrap based admin theme SB Admin 2.

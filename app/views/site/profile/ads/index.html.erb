@@ -1,3 +1,5 @@
+<h1>Listando anúncios</h1>
+
 <!-- /.panel-heading -->
 <div class="panel-body">
     <div class="table-responsive">
@@ -8,7 +10,7 @@
                     <th>Imagem</th>
                     <th>Título</th>
                     <th>Categoria</th>
-                    <th>Preço</th>
+                    <th colspan="2">Preço</th>
                 </tr>
             </thead>
             <tbody>
@@ -19,6 +21,11 @@
                         <td><%= ad.title %></td>
                         <td><%= ad.category.description %></td>
                         <td><%= humanized_money_with_symbol ad.price %></td>
+                        <td>
+                            <%= link_to edit_site_profile_ad_path(ad),  class: "btn btn-primary btn-sm" do %>
+                                <i class="fa fa-edit"></i>
+                            <% end %>
+                        <td>
                     </tr>
                 <% end %>
             </tbody>
