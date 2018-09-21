@@ -33,13 +33,13 @@
                         <%= link_to t('profile_menu.dashboard'), site_profile_dashboard_index_path %>
                     </li>
                     <li>
-                        <%= link_to t('profile_menu.my_ads'), site_profile_ads_path %>
-                    </li>
-                    <li>
                         <a href="#"><%= t('profile_menu.my_data') %></a>
                     </li>
                     <li>
-                        <a href="#"><%= t('profile_menu.new_ad') %></a>
+                        <%= link_to t('profile_menu.my_ads'), site_profile_ads_path %>
+                    </li>
+                    <li>
+                        <%= link_to t('profile_menu.new_ad'), new_site_profile_ad_path %>
                     </li>
                 </ul>
             </div>
@@ -55,5 +55,9 @@
         </div>
         <!-- /#wrapper -->
         <%= render partial: "layouts/site_shared/footer" %>
+
+        <% if notice %>
+            <%= javascript_tag "$.notify('#{notice}', 'success');" %>
+        <% end %>
     </body>
 </html>

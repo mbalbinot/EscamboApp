@@ -39,6 +39,7 @@
     <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.12, asdf: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="better_errors (v2.5.0, asdf: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bindex (v0.5.0, asdf: 2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="binding_of_caller (v0.8.0, asdf: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.3.2, asdf: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootstrap_sb_admin_base_v2 (v0.3.6, asdf: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.3, asdf: 2.5.1) [gem]" level="application" />
@@ -51,6 +52,7 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.12.2, asdf: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.0.5, asdf: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.4, asdf: 2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="debug_inspector (v0.0.3, asdf: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.5.0, asdf: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="enum_help (v0.0.17, asdf: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.7.1, asdf: 2.5.1) [gem]" level="application" />

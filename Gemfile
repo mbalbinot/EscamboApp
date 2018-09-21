@@ -51,7 +51,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Better error page for Rack apps
   gem 'better_errors'
-  #gem 'binding_of_caller'
+  # Retrieve the binding of a method's caller. Can also retrieve bindings even further up the stack.
+  gem 'binding_of_caller'
   # Generate Entity-Relationship Diagrams for Rails applications
   gem 'rails-erd'
   # A library for generating fake data such as names, addresses, and phone numbers.
