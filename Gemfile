@@ -91,3 +91,5 @@ gem 'pundit'
 gem 'money-rails', '~> 1.11'
 # Mini replacement for RMagick
 gem 'mini_magick'
+# jQuery UI for the Rails asset pipeline
+gem 'jquery-ui-rails'

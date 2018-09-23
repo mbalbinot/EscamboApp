@@ -15,6 +15,8 @@
         <%= javascript_include_tag 'site' %>
         <%= javascript_include_tag 'site/profile' %>
 
+        <%= yield :javascripts %>
+
         <%= csrf_meta_tags %>
         <%= csp_meta_tag %>
     </head>

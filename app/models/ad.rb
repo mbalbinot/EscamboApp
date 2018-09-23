@@ -9,7 +9,8 @@ class Ad < ApplicationRecord
   monetize :price_cents
 
   # Validates
-  validates_presence_of :title, :description, :category, :price
+  validates :title, :description, :category, :price, presence: true
+  validates :price, numericality: { greater_than: 0}
 
   # Scopes
   scope :descending_order, -> (quantity = 9) {limit(quantity).order(created_at: :desc)}
