@@ -77,6 +77,8 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-bootbox'
   # The iconic SVG, font, and CSS toolkit
   gem 'rails-assets-font-awesome', '~> 4.7'
+  # GLYPHICONS Halflings icons for use with Rails
+  # gem 'rails-assets-glyphicons'
 end
 
 # Rails gem of the Bootstrap based admin theme SB Admin 2.

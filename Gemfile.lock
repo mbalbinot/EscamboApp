@@ -155,6 +155,7 @@ GEM
       rails-assets-bootstrap (>= 3.0.0)
     rails-assets-bootstrap (4.1.3)
     rails-assets-font-awesome (4.7.0)
+    rails-assets-glyphicons (0.0.2)
     rails-assets-notifyjs (0.4.2)
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
@@ -252,6 +253,7 @@ DEPENDENCIES
   rails-assets-bootbox!
   rails-assets-bootstrap!
   rails-assets-font-awesome (~> 4.7)!
+  rails-assets-glyphicons!
   rails-assets-notifyjs!
   rails-erd
   rails-i18n (~> 5.1)
