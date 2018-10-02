@@ -13,5 +13,5 @@
 //= require jquery
 //= require jquery_ujs
 //= require activestorage
-//= require notifyjs
+//= require bootstrap.growl
 // require turbolinks

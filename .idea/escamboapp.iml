@@ -89,10 +89,12 @@
     <orderEntry type="library" scope="PROVIDED" name="rack (v2.0.5, asdf: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v1.1.0, asdf: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v5.2.1, asdf: 2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-assets-animate-css (v3.7.0, asdf: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-assets-bootbox (v4.4.0, asdf: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-assets-bootstrap (v4.1.3, asdf: 2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-assets-bootstrap.growl (v3.1.3, asdf: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-assets-font-awesome (v4.7.0, asdf: 2.5.1) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails-assets-glyphicons (v0.0.2, asdf: 2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-assets-jquery (v3.3.1, asdf: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-assets-notifyjs (v0.4.2, asdf: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v2.0.3, asdf: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-erd (v1.5.2, asdf: 2.5.1) [gem]" level="application" />

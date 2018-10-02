@@ -58,8 +58,6 @@
         <!-- /#wrapper -->
         <%= render partial: "layouts/site_shared/footer" %>
 
-        <% if notice %>
-            <%= javascript_tag "$.notify('#{notice}', 'success');" %>
-        <% end %>
+        <%= render partial: "layouts/shared/notifications" %>
     </body>
 </html>

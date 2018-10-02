@@ -79,6 +79,10 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-font-awesome', '~> 4.7'
   # GLYPHICONS Halflings icons for use with Rails
   # gem 'rails-assets-glyphicons'
+  # This is a simple plugin that turns standard Bootstrap alerts into "Growl-like" notifications.
+  gem 'rails-assets-bootstrap.growl'
+  # A cross-browser library of CSS animations. As easy to use as an easy thing.
+  gem 'rails-assets-animate-css'
 end
 
 # Rails gem of the Bootstrap based admin theme SB Admin 2.
