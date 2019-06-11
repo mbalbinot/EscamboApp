@@ -3,7 +3,7 @@
 
     <div class="row">
 
-        <div class="col-lg-3">
+        <div id="home-sidebar" class="col-lg-3">
 
             <h1 class="my-4"><%= t('app.name') %></h1>
 
@@ -16,7 +16,7 @@
         </div>
         <!-- /.col-lg-3 -->
 
-        <div class="col-lg-9">
+        <div id="home-detail" class="col-lg-9">
 
             <!-- Carousel -->
             <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
@@ -53,10 +53,10 @@
                 <% @ads.each do |ad| %>
                     <div class="col-lg-4 col-md-4 mb-4">
                         <div class="card h-100">
-                            <%= link_to image_tag(ad.picture, width: 200, class: "card-img-top"), site_ad_detail_path(ad) %>
+                            <%= link_to image_tag(ad.picture, width: 200, class: "card-img-top"), site_ad_detail_path(ad), remote: true %>
                             <div class="card-body">
                                 <h4 class="card-title">
-                                    <%= link_to truncate(ad.title, length: 20), site_ad_detail_path(ad) %>
+                                    <%= link_to truncate(ad.title, length: 20), site_ad_detail_path(ad), remote: true %>
                                 </h4>
                                 <h5><%= humanized_money_with_symbol ad.price %></h5>
                                 <p class="card-text"><%= truncate(ad.description, length: 100) %></p>

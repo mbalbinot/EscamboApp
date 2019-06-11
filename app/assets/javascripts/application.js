@@ -15,3 +15,15 @@
 //= require activestorage
 //= require bootstrap.growl
 // require turbolinks
+
+// Spin
+$(document).ready(function () {
+    // Global ajax cursor change
+    $(document)
+        .ajaxStart(function () {
+            $('#global-spin').fadeIn('slow');
+        })
+        .ajaxStop(function () {
+            $('#global-spin').fadeOut('slow');
+        })
+})
