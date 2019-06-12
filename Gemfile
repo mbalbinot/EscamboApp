@@ -83,6 +83,8 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap.growl'
   # A cross-browser library of CSS animations. As easy to use as an easy thing.
   gem 'rails-assets-animate-css'
+  # Bootstrap plugin for markdown editing
+  #gem 'rails-assets-bootstrap-markdown'
 end
 
 # Rails gem of the Bootstrap based admin theme SB Admin 2.
@@ -99,3 +101,7 @@ gem 'money-rails', '~> 1.11'
 gem 'mini_magick'
 # jQuery UI for the Rails asset pipeline
 gem 'jquery-ui-rails'
+# A fast, safe and extensible Markdown to (X)HTML parser
+gem 'redcarpet', '~> 3.4'
+# Markdown Lorem Ipsum
+gem 'doctor_ipsum', '~> 0.3.1'

@@ -1,6 +1,6 @@
 class Ad < ApplicationRecord
   belongs_to :member
-  belongs_to :category
+  belongs_to :category, counter_cache: true
 
   # Active Storage
   has_one_attached :picture

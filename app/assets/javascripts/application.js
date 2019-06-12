@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require activestorage
 //= require bootstrap.growl
+// require bootstrap-markdown
 // require turbolinks
 
 // Spin

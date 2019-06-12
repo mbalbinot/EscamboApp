@@ -54,6 +54,7 @@
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.4, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug_inspector (v0.0.3, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.6.2, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="doctor_ipsum (v0.3.1, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="enum_help (v0.0.17, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.8.0, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.7.0, asdf: 2.6.3) [gem]" level="application" />
@@ -103,6 +104,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rake (v12.3.2, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.10.3, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-inotify (v0.10.0, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="redcarpet (v3.4.0, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="responders (v2.4.1, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby-graphviz (v1.2.4, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby_dep (v1.5.0, asdf: 2.6.3) [gem]" level="application" />
