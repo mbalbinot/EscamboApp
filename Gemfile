@@ -70,7 +70,7 @@ gem 'rails-i18n', '~> 5.1' # For 5.0.x, 5.1.x and 5.2.x
 source 'https://rails-assets.org' do
   # The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
   gem 'rails-assets-bootstrap'
-  #gem 'bootstrap', '~> 4.1', '>= 4.1.3'
+  #gem 'bootstrap', '~> 4.3.1'
   # A simple, versatile notification library
   gem 'rails-assets-notifyjs'
   # Wrappers for JavaScript alert(), confirm() and other flexible dialogs using Twitter's bootstrap framework
@@ -105,3 +105,7 @@ gem 'jquery-ui-rails'
 gem 'redcarpet', '~> 3.4'
 # Markdown Lorem Ipsum
 gem 'doctor_ipsum', '~> 0.3.1'
+# FriendlyId allows you to create pretty URL’s and work with human-friendly strings as if they were numeric ids for ActiveRecord models.
+gem 'friendly_id', '~> 5.2.4' # Note: You MUST use 5.0.0 or greater for Rails 4.0+
+# If Turbolinks are not enough for you. Wiselinks makes your application work faster.
+#gem 'wiselinks' # não funciona no rails 5.2

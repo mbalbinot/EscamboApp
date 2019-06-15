@@ -1,7 +1,7 @@
 'pt-BR':
     helpers:
         label:
-            member[profile_member_attributes]:
+            member:
                 first_name: Primeiro Nome
                 second_name: Segundo Nome
     activerecord:

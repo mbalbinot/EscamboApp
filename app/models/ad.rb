@@ -15,4 +15,5 @@ class Ad < ApplicationRecord
   # Scopes
   scope :descending_order, -> (quantity = 9) {limit(quantity).order(created_at: :desc)}
   scope :member_ads, -> (member) {where(member: member)}
+  scope :by_category, -> (id) {where(category: id)}
 end
