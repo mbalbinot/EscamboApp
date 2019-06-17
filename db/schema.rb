@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_06_15_204748) do
+ActiveRecord::Schema.define(version: 2019_06_17_031910) do
 
   create_table "active_storage_attachments", force: :cascade do |t|
     t.string "name", null: false
@@ -67,6 +67,14 @@ ActiveRecord::Schema.define(version: 2019_06_15_204748) do
     t.integer "ads_count", default: 0
     t.string "slug"
     t.index ["slug"], name: "index_categories_on_slug", unique: true
+  end
+
+  create_table "comments", force: :cascade do |t|
+    t.text "body"
+    t.integer "member_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["member_id"], name: "index_comments_on_member_id"
   end
 
   create_table "friendly_id_slugs", force: :cascade do |t|
