@@ -1,0 +1,7 @@
+<div class="card-body">
+  <% @ad.comments.each do |comment| %>
+    <p><%= comment.body %></p>
+    <small class="text-muted">Posted by <%= comment.member.email %> on <%= comment.created_at %></small>
+    <hr>
+  <% end %>
+</div>

@@ -4,6 +4,7 @@ class Ad < ApplicationRecord
 
   # Active Storage
   has_one_attached :picture
+  has_many :comments
 
   # RubyMoney - Money-Rails
   monetize :price_cents

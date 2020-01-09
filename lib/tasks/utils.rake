@@ -44,4 +44,19 @@ namespace :utils do
     puts "ADS cadastrados com sucesso!"
   end
 
+
+  desc "Cria Comentários fake"
+  task generate_comments: :environment do
+    puts "Cadastrando COMENTÁRIOS..."
+    Ad.all.each do |ad|
+      Random.rand(3).times do
+        Comment.create!(
+            body: Faker::Lorem.paragraph(sentence_count: [1,2,3].sample),
+            member: Member.all.sample,
+            ad: ad)
+      end
+    end
+    puts "ANÚNCIOS cadastrados com sucesso!"
+  end
+
 end

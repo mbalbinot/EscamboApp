@@ -8,9 +8,6 @@
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
-      <driver-properties>
-        <property name="enable_load_extension" value="true" />
-      </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="Rails escamboapp: production" uuid="1a680b37-63a3-4e45-aaa9-ed69537843bd">
       <driver-ref>sqlite.xerial</driver-ref>
@@ -19,9 +16,6 @@
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/production.sqlite3</jdbc-url>
-      <driver-properties>
-        <property name="enable_load_extension" value="true" />
-      </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="Rails escamboapp: development" uuid="ba0d32f1-4693-4457-829a-cffb56d96358">
       <driver-ref>sqlite.xerial</driver-ref>
@@ -30,9 +24,6 @@
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
-      <driver-properties>
-        <property name="enable_load_extension" value="true" />
-      </driver-properties>
     </data-source>
   </component>
 </project>
