@@ -102,7 +102,7 @@ gem 'mini_magick'
 # jQuery UI for the Rails asset pipeline
 gem 'jquery-ui-rails'
 # A fast, safe and extensible Markdown to (X)HTML parser
-gem 'redcarpet', '~> 3.4'
+gem 'redcarpet', '~> 3.5'
 # Markdown Lorem Ipsum
 gem 'doctor_ipsum', '~> 0.3.1'
 # FriendlyId allows you to create pretty URL’s and work with human-friendly strings as if they were numeric ids for ActiveRecord models.
